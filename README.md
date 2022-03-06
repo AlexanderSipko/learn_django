@@ -113,3 +113,22 @@ products = Product.objects.filter(price__gt=100, currency="USD")
 .help
 /* use sql syntax and send request to db */
 ```
+
+```super_user
+login >> Alex
+email >> Alex@mail.ru
+pasword >> 1234
+```
+
+
+```
+1 создать админку для каждой модели и заполнить их данными
+2 создать файл views.py для каждой модели вывести данные списком
+Products.objects.all()
+
+
+3 создать функцию которая выводит все данные от пользователя который зашел в систему
+
+```
+
+
